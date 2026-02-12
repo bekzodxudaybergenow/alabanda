@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(74, 74, 74, 1)
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 940px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 670px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 580px;
+    }
+}
