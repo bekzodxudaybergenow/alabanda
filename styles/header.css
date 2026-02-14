@@ -1,6 +1,7 @@
-.header-menu {
-    background-color: red !important;
+.header {
+    background-color: #f9f6e5;
+    border-bottom: 2px solid rgba(249, 246, 229, 1);
 }
-.header-menu button i::before {
-    color: #fff !important;
+.header-row {
+    padding: 10px 0 20px;
 }
