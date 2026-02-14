@@ -5,6 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.btn {
+    background-color: #6bb071;
+    border-color: #6bb071 !important;
+}
+.btn:hover {
+    background-color: #448849;
+}
+.btn:focus {
+    background-color: #448849;
+}
+
 body {
     font-family: "Dosis", sans-serif;
     font-weight: 400;
