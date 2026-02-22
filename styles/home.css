@@ -1,7 +1,6 @@
 .home {
     background-image: url('../images/home/bg-img.png');
-    background-position: center;
-    /* min-height: 500px; */
+    
 }
 .carousel-caption {
     position: static;
@@ -12,16 +11,55 @@
 .carousel-caption {
     max-width: 600px;
     margin: 0 auto;
+    color: rgba(74, 74, 74, 1);
 }
 .carousel-caption h1 {
     font-weight: 600;
     font-size:100px;
     line-height: 110px;
     letter-spacing: 2px;
+    margin-bottom: 58px;
+    position: relative;
 }
-
+.carousel-caption h1::after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 8px;
+    background-color: rgba(74, 74, 74, 1);
+}
+.carousel-caption p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.home-btn {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    line-height: 18px;
+    padding: 18px 50px;
+    color: rgba(249, 246, 229, 1);
+}
+.home-btn:hover {
+    color: rgba(249, 246, 229, 1);
+}
 .carousel-indicators {
     position: relative;
 }
 .corusel-btns {
+    position: relative;
+    background-color: darkgrey;
+    width: 100% !important;
+}
+.corusel-btn {
+    position: absolute;
+    /* left: 0; */
+    /* width: 0; */
+    background-color: #6bb071;
 }
