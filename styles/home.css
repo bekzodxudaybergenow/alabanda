@@ -53,13 +53,14 @@
     position: relative;
 }
 .corusel-btns {
-    position: relative;
-    background-color: darkgrey;
-    width: 100% !important;
+    position: absolute;
+    right: 0;
+    top: 40%;
 }
 .corusel-btn {
-    position: absolute;
-    /* left: 0; */
-    /* width: 0; */
+    position: relative;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
     background-color: #6bb071;
 }
