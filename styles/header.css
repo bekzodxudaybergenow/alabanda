@@ -1,5 +1,6 @@
 .header {
-    background-color: #f9f6e5;
+    /* background-color: #f9f6e5; */
+    background-color: #fff;
     border-bottom: 2px solid rgba(249, 246, 229, 1);
 }
 .header-row {
