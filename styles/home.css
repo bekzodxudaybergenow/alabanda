@@ -5,9 +5,6 @@
 .carousel-caption {
     position: static;
 }
-/* .home-row {
-    padding: 80px 0;
-} */
 .carousel-caption {
     max-width: 600px;
     margin: 0 auto;
@@ -64,8 +61,34 @@
     opacity: 1;
     background-color: #6bb071;
 }
+.carousel-indicators btn {
+    width: 100px;
+}
+@media screen and (max-width: 640px) {
+    .carousel-caption p {
+        display: none;
+    }
+    .corusel-btn {
+        width: 40px;
+        height: 40px;
+    }
+    .carousel-caption h1::after {
+        width: 70px;
+    }
+}
 @media screen and (max-width: 425px) {
     .carousel-caption p {
         margin-bottom: 30px;
+    }
+    .corusel-btns  {
+        display: none;
+    }
+    .home-btn {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+    .carousel-caption h1::after {
+        width: 50px;
+        height: 5px;
     }
 }
