@@ -1,0 +1,10 @@
+.call-content p {
+    opacity: .7;
+}
+.call-btn {
+    background-color: #fff;
+    color: #6bb071;
+}
+.call-btn:hover {
+    color: #fff;
+}
