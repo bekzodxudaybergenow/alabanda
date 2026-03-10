@@ -15,6 +15,10 @@
 .btn:focus {
     background-color: #448849;
 }
+.bg-green {
+    background-color: #6bb071;
+    color: #fff;
+}
 
 body {
     font-family: "Dosis", sans-serif;
