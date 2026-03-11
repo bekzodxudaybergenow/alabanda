@@ -8,3 +8,24 @@
 .call-btn:hover {
     color: #fff;
 }
+@media screen and (max-width: 920px) {
+    .call-content {
+        max-width: 520px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .call-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .call-content {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px) {
+    .call-btn {
+        font-size: 18px !important;
+        padding: 6px 30px !important;
+    }
+}
