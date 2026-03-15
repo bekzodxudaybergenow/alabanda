@@ -1,0 +1,30 @@
+.experience {
+    max-width: 1300px;
+    padding: 0 15px;
+}
+.experience-row {
+}
+.experience-content {
+    max-width: 380px
+}
+.experience-content__title {
+}
+.experience-content__desc {
+}
+.experience-list {
+    display: grid;
+    grid-template-columns: repeat(4, 212px);
+    grid-template-rows: 255px 255px;
+    list-style: none;
+    padding: 0;
+}
+.experience-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid;
+}
+.experience-item__img {
+}
+.experience-item__subtitle {
+}
