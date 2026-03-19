@@ -1,6 +1,7 @@
 .experience {
     max-width: 1300px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 .experience-row {
 }
@@ -22,7 +23,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-left: 1px solid;
+    border-right: 3px solid #f9f6e5;
+}
+.experience-list__item.list-line {
+    border-top: 3px solid #f9f6e5;
+}
+.experience-list__item.line-first,
+.experience-list__item.line-six {
+    border-left: 3px solid #f9f6e5;
 }
 .experience-item__img {
 }
