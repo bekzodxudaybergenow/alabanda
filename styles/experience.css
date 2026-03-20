@@ -9,8 +9,21 @@
     max-width: 380px
 }
 .experience-content__title {
+    font-size: 24px;
+    position: relative;
+}
+.experience-content__title::after {
+    content: '';
+    width: 100px;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #6bb071;
 }
 .experience-content__desc {
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 .experience-list {
     display: grid;
