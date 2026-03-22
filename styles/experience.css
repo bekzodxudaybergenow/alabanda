@@ -49,3 +49,49 @@
 }
 .experience-item__subtitle {
 }
+
+@media screen and (max-width: 1200px) {
+    .experience-content {
+        max-width: 100%;
+        margin-top: 60px;
+    }
+    .experience-list__item,
+    .experience-list__item.list-line,
+    .experience-list__item.line-first,
+    .experience-list__item.line-six {
+        border: none;
+    }
+    .experience-list {
+        border-top: 2px solid #f9f6e5;
+        border-left: 2px solid #f9f6e5;
+    }
+    .experience-list__item {
+        border-right: 2px solid #f9f6e5 !important;
+        border-bottom: 2px solid #f9f6e5 !important;
+    }
+}
+@media screen and (max-width: 920px) {
+    .experience-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(212px, 1fr));
+        grid-auto-rows: minmax(255px, auto);
+        gap: 20px;
+        border: none;
+        width: 100%;
+    } 
+    .experience-list__item,
+    .experience-list__item.list-line,
+    .experience-list__item.line-first,
+    .experience-list__item.line-six {
+        border: none;
+    }
+    .experience-list {
+        border-top: 2px solid #f9f6e5;
+        border-left: 2px solid #f9f6e5;
+        gap: 0;
+    }
+    .experience-list__item {
+        border-right: 2px solid #f9f6e5 !important;
+        border-bottom: 2px solid #f9f6e5 !important;
+    }
+}
