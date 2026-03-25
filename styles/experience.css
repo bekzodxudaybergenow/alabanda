@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     border-right: 3px solid #f9f6e5;
 }
 .experience-list__item.list-line {
@@ -45,9 +46,28 @@
 .experience-list__item.line-six {
     border-left: 3px solid #f9f6e5;
 }
+.experience-list__item--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.experience-list__item--content p {
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    color: rgba(155, 155, 155, 1);
+    margin-bottom: 8px;
+}
 .experience-item__img {
+    width: 54px;
+    height: 54px;
+    margin: 30px;
 }
 .experience-item__subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1200px) {
