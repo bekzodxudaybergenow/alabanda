@@ -38,6 +38,12 @@
     justify-content: center;
     flex-direction: column;
     border-right: 3px solid #f9f6e5;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.experience-list__item:hover .experience-list__item--content {
+    height: 100%;
+    opacity: 1;
 }
 .experience-list__item.list-line {
     border-top: 3px solid #f9f6e5;
@@ -51,12 +57,32 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .6s ease;
+
 }
 .experience-list__item--content p {
     line-height: 22px;
     letter-spacing: 1.2px;
     color: rgba(155, 155, 155, 1);
     margin-bottom: 8px;
+}
+.experience-list__item--content a {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    column-gap: 10px;
+    color: #6bb071;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.experience-list__item--content a:hover {
+    color: #448849;
+}
+.experience-list__item--content a svg {
+    margin-top: 2px;
 }
 .experience-item__img {
     width: 54px;
