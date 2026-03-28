@@ -1,0 +1,22 @@
+.portfolio {
+    background: url('../images/portfolio/bg-portfolio.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.portfolio-content {
+}
+.portfolio-content__title {
+    margin-bottom: 80px;
+}
+.portfolio-list {
+    list-style: none;
+}
+.portfolio-list__item {
+}
