@@ -31,6 +31,26 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+.title {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(74, 74, 74, 1);
+    letter-spacing: 2px;
+    padding-bottom: 24px;
+    position: relative;
+}
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    height: 8px;
+    transform: translateX(-50%);
+    background-color: rgba(107, 176, 113, 1);
+}
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 940px;
