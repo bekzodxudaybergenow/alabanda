@@ -16,7 +16,28 @@
     margin-bottom: 80px;
 }
 .portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
     list-style: none;
 }
 .portfolio-list__item {
+    text-align: center;
+
+}
+.portfolio-list__item img {
+    margin-bottom: 23px;
+}
+.portfolio-list__item h4 {
+    display: inline-block;
+    position: relative;
+}
+.portfolio-list__item h4::before {
+    content: '//';
+    position: absolute;
+    top: 0;
+    left: -25px;
+    color: rgba(107, 176, 113, 1);
 }
