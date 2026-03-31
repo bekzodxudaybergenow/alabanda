@@ -41,3 +41,10 @@
     left: -25px;
     color: rgba(107, 176, 113, 1);
 }
+
+@media screen and (max-width: 1150px) {
+    .portfolio-list {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        column-gap: 20px;
+    }   
+}
