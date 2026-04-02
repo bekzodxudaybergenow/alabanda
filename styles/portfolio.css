@@ -10,8 +10,6 @@
     align-items: center;
     padding: 80px 0;
 }
-.portfolio-content {
-}
 .portfolio-content__title {
     margin-bottom: 80px;
 }
@@ -47,6 +45,9 @@
         gap: 20px;
     }   
 }
+@media screen and (max-width: 768px) {
+
+}
 @media screen and (max-width: 580px) {
      .portfolio-list {
         grid-template-columns: 80%;
@@ -62,5 +63,10 @@
     }
     .portfolio-list__item h4 {
         display: inline-block;
+    }
+}
+@media screen and (max-width: 425px) {
+    .portfolio-row {
+        padding: 60px 0;
     }
 }
