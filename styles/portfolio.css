@@ -49,6 +49,9 @@
 
 }
 @media screen and (max-width: 580px) {
+    .portfolio-content__title {
+        margin-bottom: 60px;
+    }
      .portfolio-list {
         grid-template-columns: 80%;
         justify-content: center;
